@@ -81,6 +81,14 @@ html {
         filter: blur(0px);
         animation: blur-text 1.5s 1.2s infinite linear alternate;
     }
+  .loading-text span:nth-child(8) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 1.4s infinite linear alternate;
+    }
+  .loading-text span:nth-child(9) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 1.6s infinite linear alternate;
+    }
     
     @keyframes blur-text {
         0% {
@@ -99,14 +107,16 @@ html {
 <body>
   <div id="loading" class="loading">
 <div class="loading-text">
+    <span class="loading-text-words">L</span>
+    <span class="loading-text-words">O</span>
     <span class="loading-text-words">A</span>
-    <span class="loading-text-words">V</span>
+    <span class="loading-text-words">D</span>
     <span class="loading-text-words">I</span>
-    <span class="loading-text-words">S</span>
-    <span class="loading-text-words">H</span>
-    <span class="loading-text-words">K</span>
-    <span class="loading-text-words">A</span>
-    <span class="loading-text-words">R</span>
+    <span class="loading-text-words">N</span>
+    <span class="loading-text-words">G</span>
+    <span class="loading-text-words">.</span>
+    <span class="loading-text-words">.</span>
+    <span class="loading-text-words">.</span>
 </div>
 </div>
 
